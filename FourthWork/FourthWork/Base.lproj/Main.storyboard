@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yyx-kO-DcC">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--facts-->
+        <scene sceneID="v0K-Hc-VeQ">
+            <objects>
+                <viewController storyboardIdentifier="facts" title="facts" id="G2l-hy-glE" customClass="Facts" customModule="FourthWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NIp-fU-JCX">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1506"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STd-eV-z6Y">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="1472"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wmk-bS-K0A" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="-4" width="390" height="1437"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUL-RJ-LQ3">
+                                                <rect key="frame" x="8" y="8" width="255" height="28"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Interesting facts about">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="25" name="ArialMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IL6-xP-dkJ">
+                                                <rect key="frame" x="33.333333333333329" y="45.333333333333343" width="188.66666666666669" height="33.666666666666657"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="STEVE JOBS">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <font key="NSFont" size="30" name="Arial-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. STEVE JOBS WAS ADOPTED." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Az1-rq-rco">
+                                                <rect key="frame" x="8" y="120" width="242" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gm8-GF-bxg">
+                                                <rect key="frame" x="8" y="322" width="374" height="100.33333333333331"/>
+                                                <string key="text">Steve Jobs may have been a very public figure, but he was always careful to keep his private life hidden. Jobs was adopted, and his biological father, Abdulfattah Jandali, was a Syrian immigrant. He rebuffed Jandali’s attempts to get in touch, and denied paternity of his own daughter, Lisa, for many years.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RoF-kV-2j9">
+                                                <rect key="frame" x="53" y="161" width="285" height="145"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FMn-hJ-q8g">
+                                                <rect key="frame" x="53" y="563" width="285" height="146"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="146" id="kFg-lW-8QJ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIg-O6-1M5">
+                                                <rect key="frame" x="8" y="732" width="375" height="164"/>
+                                                <string key="text">Like many boomers, Jobs was something of a hippie in his younger years. He and his friend and future employee, Daniel Kottke, would frequently trip on LSD during college in the '70s. Kottke described himself and Jobs as “monk-wannabes.” Jobs was very influenced by Be Here Now, a 1971 book on meditation by spiritual teacher Ram Dass, and practiced Zen Buddhism. The Buddhist principles of mindfulness even supposedly helped inspire Apple’s simple yet effective product designs.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. STEVE JOBS HIGHER EDUCATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsP-Jb-f7t">
+                                                <rect key="frame" x="8" y="936" width="281" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="oaO-2Y-tNH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJT-qJ-QGe">
+                                                <rect key="frame" x="8" y="987" width="375" height="141"/>
+                                                <string key="text">Jobs attended Reed College in Portland, Oregon, a private university he once described as "almost as expensive as Stanford." He dropped out after the first semester, but remained among the students, attending the few classes that interested him. In particular, calligraphy was taught by the Trappist monk Robert Paalladino, who Jobs says taught him about the fonts he later implemented on a Mac personal computer.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roj-j6-3Yv">
+                                                <rect key="frame" x="10" y="1136" width="371" height="58"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="58" id="004-dE-05B"/>
+                                                </constraints>
+                                                <string key="text">Steve Jobs also graduated from Stanfford. At his graduation, he gave an amazing speech, the recording of which is presented below.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. STEVE JOBS EXPERIMENTED WITH PSYCHEDELIC DRUGS." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xp5-dF-Bmo">
+                                                <rect key="frame" x="8.0000000000000142" y="478" width="249.33333333333337" height="40.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zM9-ew-KNP">
+                                                <rect key="frame" x="68" y="1217" width="255" height="172"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" image="Steve-jobs" imagePlacement="bottom" imagePadding="0.0"/>
+                                                <connections>
+                                                    <action selector="player:" destination="G2l-hy-glE" eventType="touchUpInside" id="hyE-eJ-nqC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="IL6-xP-dkJ" secondAttribute="trailing" constant="168" id="2oJ-nW-q3C"/>
+                                            <constraint firstItem="roj-j6-3Yv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FsP-Jb-f7t" secondAttribute="leading" id="3ZE-ci-Fp8"/>
+                                            <constraint firstAttribute="bottom" secondItem="IL6-xP-dkJ" secondAttribute="bottom" constant="1358" id="6z2-8R-dUn"/>
+                                            <constraint firstItem="zM9-ew-KNP" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="68" id="BTM-M7-tGV"/>
+                                            <constraint firstAttribute="bottom" secondItem="FsP-Jb-f7t" secondAttribute="bottom" constant="480" id="Bwq-fB-2aE"/>
+                                            <constraint firstItem="Az1-rq-rco" firstAttribute="top" secondItem="IL6-xP-dkJ" secondAttribute="bottom" constant="41" id="CkS-lb-3GW"/>
+                                            <constraint firstItem="YJT-qJ-QGe" firstAttribute="centerX" secondItem="RoF-kV-2j9" secondAttribute="centerX" id="FPw-4d-n6K"/>
+                                            <constraint firstItem="FMn-hJ-q8g" firstAttribute="top" secondItem="Xp5-dF-Bmo" secondAttribute="bottom" constant="44.333333333333371" id="IOS-um-Yaa"/>
+                                            <constraint firstItem="Xp5-dF-Bmo" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="8" id="JwX-rX-OUW"/>
+                                            <constraint firstItem="gm8-GF-bxg" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="8" id="Ltq-4x-nSO"/>
+                                            <constraint firstItem="ZIg-O6-1M5" firstAttribute="top" secondItem="FMn-hJ-q8g" secondAttribute="bottom" constant="23" id="MoZ-x1-J7I"/>
+                                            <constraint firstItem="IL6-xP-dkJ" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="33.329999999999998" id="Nqx-I6-nbV"/>
+                                            <constraint firstAttribute="trailing" secondItem="UUL-RJ-LQ3" secondAttribute="trailing" constant="127" id="P8M-0M-nUo"/>
+                                            <constraint firstAttribute="trailing" secondItem="FsP-Jb-f7t" secondAttribute="trailing" constant="101" id="P8u-Od-l70"/>
+                                            <constraint firstAttribute="bottom" secondItem="roj-j6-3Yv" secondAttribute="bottom" constant="243" id="Q5F-2P-nwQ"/>
+                                            <constraint firstItem="YJT-qJ-QGe" firstAttribute="top" secondItem="FsP-Jb-f7t" secondAttribute="bottom" constant="30" id="Ra0-1x-hAp"/>
+                                            <constraint firstItem="FMn-hJ-q8g" firstAttribute="centerX" secondItem="ZIg-O6-1M5" secondAttribute="centerX" id="Rza-Dy-tjA"/>
+                                            <constraint firstItem="Az1-rq-rco" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="UUL-RJ-LQ3" secondAttribute="leading" id="TKw-3P-PGV"/>
+                                            <constraint firstAttribute="height" constant="1437" id="UoQ-1A-47h"/>
+                                            <constraint firstItem="gm8-GF-bxg" firstAttribute="top" secondItem="RoF-kV-2j9" secondAttribute="bottom" constant="16" id="WHD-ky-awz"/>
+                                            <constraint firstItem="UUL-RJ-LQ3" firstAttribute="top" secondItem="wmk-bS-K0A" secondAttribute="top" constant="8" id="ZH9-bg-eyx"/>
+                                            <constraint firstItem="FMn-hJ-q8g" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="53" id="a0e-la-jwS"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xp5-dF-Bmo" secondAttribute="trailing" constant="132.66666666666669" id="aEn-Y9-PK2"/>
+                                            <constraint firstItem="YJT-qJ-QGe" firstAttribute="leading" secondItem="FsP-Jb-f7t" secondAttribute="leading" id="bI5-6M-mhs"/>
+                                            <constraint firstItem="Xp5-dF-Bmo" firstAttribute="top" secondItem="gm8-GF-bxg" secondAttribute="bottom" constant="55.666666666666686" id="bw8-Al-TBe"/>
+                                            <constraint firstItem="roj-j6-3Yv" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="10" id="cDh-ZO-wfq"/>
+                                            <constraint firstItem="Xp5-dF-Bmo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="8" id="cuz-GG-J3J"/>
+                                            <constraint firstItem="YJT-qJ-QGe" firstAttribute="leading" secondItem="gm8-GF-bxg" secondAttribute="leading" id="egu-Ix-E8S"/>
+                                            <constraint firstItem="IL6-xP-dkJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="20" symbolic="YES" id="ezX-mm-dPg"/>
+                                            <constraint firstItem="zM9-ew-KNP" firstAttribute="top" secondItem="roj-j6-3Yv" secondAttribute="bottom" constant="23" id="fPE-HB-2dd"/>
+                                            <constraint firstItem="YJT-qJ-QGe" firstAttribute="leading" secondItem="ZIg-O6-1M5" secondAttribute="leading" id="hkP-kF-Yy9"/>
+                                            <constraint firstItem="roj-j6-3Yv" firstAttribute="top" secondItem="YJT-qJ-QGe" secondAttribute="bottom" constant="8" symbolic="YES" id="hx3-S3-EdP"/>
+                                            <constraint firstItem="FsP-Jb-f7t" firstAttribute="top" secondItem="ZIg-O6-1M5" secondAttribute="bottom" constant="40" id="hya-th-Vh7"/>
+                                            <constraint firstItem="RoF-kV-2j9" firstAttribute="top" secondItem="Az1-rq-rco" secondAttribute="bottom" constant="20" id="jmr-PE-1XZ"/>
+                                            <constraint firstItem="FMn-hJ-q8g" firstAttribute="centerX" secondItem="roj-j6-3Yv" secondAttribute="centerX" id="lPH-bh-O34"/>
+                                            <constraint firstItem="zM9-ew-KNP" firstAttribute="centerX" secondItem="roj-j6-3Yv" secondAttribute="centerX" id="lv2-nf-wQa"/>
+                                            <constraint firstItem="ZIg-O6-1M5" firstAttribute="top" secondItem="FMn-hJ-q8g" secondAttribute="bottom" constant="23" id="myJ-Zq-TFM"/>
+                                            <constraint firstItem="RoF-kV-2j9" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="53" id="oFF-1s-hJm"/>
+                                            <constraint firstAttribute="trailing" secondItem="RoF-kV-2j9" secondAttribute="trailing" constant="52" id="orr-Cx-jn6"/>
+                                            <constraint firstAttribute="trailing" secondItem="gm8-GF-bxg" secondAttribute="trailing" constant="8" id="p7N-h5-A91"/>
+                                            <constraint firstAttribute="bottom" secondItem="RoF-kV-2j9" secondAttribute="bottom" constant="1131" id="qhg-PI-oEP"/>
+                                            <constraint firstItem="UUL-RJ-LQ3" firstAttribute="leading" secondItem="wmk-bS-K0A" secondAttribute="leading" constant="8" id="qmH-Hq-2R4"/>
+                                            <constraint firstItem="FsP-Jb-f7t" firstAttribute="top" secondItem="ZIg-O6-1M5" secondAttribute="bottom" constant="40" id="qyC-D0-jFx"/>
+                                            <constraint firstAttribute="trailing" secondItem="FMn-hJ-q8g" secondAttribute="trailing" constant="52" id="wPs-nb-GlN"/>
+                                            <constraint firstAttribute="bottom" secondItem="zM9-ew-KNP" secondAttribute="bottom" constant="48" id="xFc-i4-tvd"/>
+                                            <constraint firstAttribute="trailing" secondItem="Az1-rq-rco" secondAttribute="trailing" constant="140" id="zcn-J7-Wp3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="wmk-bS-K0A" secondAttribute="bottom" id="5nd-Tk-YPJ"/>
+                                    <constraint firstItem="wmk-bS-K0A" firstAttribute="top" secondItem="STd-eV-z6Y" secondAttribute="top" constant="-4" id="Rk0-zX-uNu"/>
+                                    <constraint firstAttribute="trailing" secondItem="wmk-bS-K0A" secondAttribute="trailing" id="eC9-SO-bHb"/>
+                                    <constraint firstItem="wmk-bS-K0A" firstAttribute="leading" secondItem="STd-eV-z6Y" secondAttribute="leading" id="pwx-Dm-4o0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ea3-HB-vFn"/>
+                        <color key="backgroundColor" red="0.91326634376124316" green="1" blue="0.96051474134782977" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="STd-eV-z6Y" firstAttribute="trailing" secondItem="ea3-HB-vFn" secondAttribute="trailing" id="1Ar-qY-Iiz"/>
+                            <constraint firstItem="STd-eV-z6Y" firstAttribute="top" secondItem="ea3-HB-vFn" secondAttribute="top" id="8bn-hn-6R0"/>
+                            <constraint firstItem="STd-eV-z6Y" firstAttribute="bottom" secondItem="ea3-HB-vFn" secondAttribute="bottom" id="IXp-Ft-nhR"/>
+                            <constraint firstItem="STd-eV-z6Y" firstAttribute="leading" secondItem="ea3-HB-vFn" secondAttribute="leading" id="Ld3-0D-G0f"/>
+                            <constraint firstItem="wmk-bS-K0A" firstAttribute="width" secondItem="NIp-fU-JCX" secondAttribute="width" id="f3r-yS-cDE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="5Mj-wk-Vyh"/>
+                    <size key="freeformSize" width="390" height="1560"/>
+                    <connections>
+                        <outlet property="Steve" destination="IL6-xP-dkJ" id="tLH-tc-Mox"/>
+                        <outlet property="facts" destination="UUL-RJ-LQ3" id="9C7-TW-Ujp"/>
+                        <outlet property="first" destination="Az1-rq-rco" id="vA3-UN-bLH"/>
+                        <outlet property="firstFact" destination="gm8-GF-bxg" id="qGd-9Q-Jia"/>
+                        <outlet property="firstImage" destination="RoF-kV-2j9" id="HIH-1h-hfO"/>
+                        <outlet property="second" destination="Xp5-dF-Bmo" id="dDF-s9-lAQ"/>
+                        <outlet property="secondFact" destination="ZIg-O6-1M5" id="mNJ-z1-qUr"/>
+                        <outlet property="secondImage" destination="FMn-hJ-q8g" id="lUg-WS-6Lf"/>
+                        <outlet property="third" destination="FsP-Jb-f7t" id="zdW-as-L4d"/>
+                        <outlet property="thirdFactOne" destination="YJT-qJ-QGe" id="uv5-WK-wT3"/>
+                        <outlet property="thirdFactTwo" destination="roj-j6-3Yv" id="z0L-3U-qCH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H3b-F8-mm5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-552.30769230769226" y="1087.6777251184833"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Y42-7D-Tz3">
+            <objects>
+                <viewController title="Settings" id="xmA-4H-W23" customClass="Settings" customModule="FourthWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="maC-ul-NnA">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QCk-tC-x5r">
+                                <rect key="frame" x="305" y="93" width="51" height="31"/>
+                                <connections>
+                                    <action selector="useLightTheme:" destination="xmA-4H-W23" eventType="valueChanged" id="ou8-wQ-Sdg"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Использовать русский язык" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqR-fW-2zr">
+                                <rect key="frame" x="16" y="189" width="259" height="19.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Использовать темную тему" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTr-N3-lYU">
+                                <rect key="frame" x="16" y="98" width="294" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GmB-JQ-p80">
+                                <rect key="frame" x="305" y="183" width="51" height="31"/>
+                                <connections>
+                                    <action selector="useRussianLanguage:" destination="xmA-4H-W23" eventType="valueChanged" id="ceI-ab-gDH"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dhT-wS-JBR"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pqR-fW-2zr" firstAttribute="top" secondItem="pTr-N3-lYU" secondAttribute="bottom" constant="70" id="1JC-DP-WGE"/>
+                            <constraint firstItem="dhT-wS-JBR" firstAttribute="bottom" secondItem="pqR-fW-2zr" secondAttribute="bottom" constant="552.66666666666663" id="6Wo-5w-HyX"/>
+                            <constraint firstItem="QCk-tC-x5r" firstAttribute="leading" secondItem="GmB-JQ-p80" secondAttribute="leading" id="AWJ-IL-rIY"/>
+                            <constraint firstItem="dhT-wS-JBR" firstAttribute="trailing" secondItem="GmB-JQ-p80" secondAttribute="trailing" constant="36" id="Jlx-2W-QAK"/>
+                            <constraint firstItem="QCk-tC-x5r" firstAttribute="centerY" secondItem="pTr-N3-lYU" secondAttribute="centerY" id="OIA-c9-KPi"/>
+                            <constraint firstItem="GmB-JQ-p80" firstAttribute="leading" secondItem="pqR-fW-2zr" secondAttribute="trailing" constant="30" id="Seh-zv-Nih"/>
+                            <constraint firstItem="dhT-wS-JBR" firstAttribute="bottom" secondItem="GmB-JQ-p80" secondAttribute="bottom" constant="547" id="WkR-rD-OAM"/>
+                            <constraint firstItem="pTr-N3-lYU" firstAttribute="leading" secondItem="dhT-wS-JBR" secondAttribute="leading" constant="16" id="ZmS-EQ-ElK"/>
+                            <constraint firstItem="pqR-fW-2zr" firstAttribute="leading" secondItem="dhT-wS-JBR" secondAttribute="leading" constant="16" id="dWk-5F-M0i"/>
+                            <constraint firstItem="pTr-N3-lYU" firstAttribute="top" secondItem="dhT-wS-JBR" secondAttribute="top" constant="54" id="ftL-dy-3zn"/>
+                            <constraint firstItem="QCk-tC-x5r" firstAttribute="top" secondItem="dhT-wS-JBR" secondAttribute="top" constant="49" id="hbd-VI-rc9"/>
+                            <constraint firstItem="GmB-JQ-p80" firstAttribute="leading" secondItem="dhT-wS-JBR" secondAttribute="leading" constant="305" id="jtV-ev-PYW"/>
+                            <constraint firstItem="dhT-wS-JBR" firstAttribute="trailing" secondItem="pTr-N3-lYU" secondAttribute="trailing" constant="80" id="xbx-3N-d2U"/>
+                            <constraint firstItem="GmB-JQ-p80" firstAttribute="top" secondItem="QCk-tC-x5r" secondAttribute="bottom" constant="59" id="z8H-xt-Df0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear.circle" catalog="system" id="FcM-gW-x1s">
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="Theme" destination="pTr-N3-lYU" id="NTG-XW-vBC"/>
+                        <outlet property="language" destination="pqR-fW-2zr" id="rE5-0x-Cju"/>
+                        <segue destination="G2l-hy-glE" kind="presentation" identifier="facts" id="fKC-BX-z2w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fek-RN-Mh4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670.76923076923072" y="833.88625592417054"/>
+        </scene>
+        <!--Tab bar controller-->
+        <scene sceneID="9r8-4f-RtA">
+            <objects>
+                <tabBarController title="Tab bar controller" automaticallyAdjustsScrollViewInsets="NO" id="yyx-kO-DcC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hGQ-8o-PCq">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="G2l-hy-glE" kind="relationship" relationship="viewControllers" id="qvP-mq-Xkk"/>
+                        <segue destination="xmA-4H-W23" kind="relationship" relationship="viewControllers" id="L2C-g3-u8c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awX-Rr-fIY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="fKC-BX-z2w"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Steve-jobs" width="258" height="173"/>
+        <image name="gear.circle" catalog="system" width="128" height="121"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
